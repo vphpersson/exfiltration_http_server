@@ -1,6 +1,6 @@
 # exfiltration_http_server
 
-A simple HTTP server that write data it receives in POST requests to disk. Use it for sneaky exfiltration, maybe.
+A simple HTTP server that writes data it receives in POST requests to disk. Use it for sneaky exfiltration, maybe.
 
 ## Usage
 
