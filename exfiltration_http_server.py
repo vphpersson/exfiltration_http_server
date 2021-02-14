@@ -29,7 +29,7 @@ class HTTPRequestHandler(SimpleHTTPRequestHandler):
         save_path = self.save_directory / filename
 
         if save_path.exists():
-            print(f'Could not save file. {save_path} exists.', file=stderr)
+            print(f'A file was not written. A file already exists at {save_path}.', file=stderr)
             return
 
         num_bytes = int(self.headers['Content-Length'])
